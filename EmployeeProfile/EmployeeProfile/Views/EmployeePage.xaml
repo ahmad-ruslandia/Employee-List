@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeeProfile.Views.EmployeePage"
+             Title="{Binding TituloPagina}">
+    
+    <VerticalStackLayout Padding="15">
+
+        <ActivityIndicator IsVisible="{Binding LoadingEsVisible}"
+                           IsRunning="{Binding LoadingEsVisible}"
+                           Color="Blue"
+                           HeightRequest="30"
+                           />
+
+        <Label Text="Full Name"/>
+        <Entry Text="{Binding EmployeeDto.FullName}" Margin="0,0,0,10"/>
+
+        <Label Text="Email"/>
+        <Entry Text="{Binding EmployeeDto.Email}" Margin="0,0,0,10"/>
+
+        <Label Text="Salary"/>
+        <Entry Text="{Binding EmployeeDto.Salary}" Keyboard="Numeric" Margin="0,0,0,10"/>
+
+        <Label Text="Contract Date"/>
+        <DatePicker Date="{Binding EmployeeDto.ContractDate}" Margin="0,0,0,10"/>
+
+        <Button Text="Submit" Command="{Binding SubmitCommand}" BackgroundColor="Green"/>
+
+    </VerticalStackLayout>
+</ContentPage>

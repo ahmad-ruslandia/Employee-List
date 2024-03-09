@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeProfile</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeProfile.DTOs.EmployeeDTO">
+            <inheritdoc/>
+        </member>
+        <member name="P:EmployeeProfile.DTOs.EmployeeDTO.IdEmployee">
+            <inheritdoc cref="F:EmployeeProfile.DTOs.EmployeeDTO.idEmployee"/>
+        </member>
+        <member name="P:EmployeeProfile.DTOs.EmployeeDTO.FullName">
+            <inheritdoc cref="F:EmployeeProfile.DTOs.EmployeeDTO.fullName"/>
+        </member>
+        <member name="P:EmployeeProfile.DTOs.EmployeeDTO.Email">
+            <inheritdoc cref="F:EmployeeProfile.DTOs.EmployeeDTO.email"/>
+        </member>
+        <member name="P:EmployeeProfile.DTOs.EmployeeDTO.Salary">
+            <inheritdoc cref="F:EmployeeProfile.DTOs.EmployeeDTO.salary"/>
+        </member>
+        <member name="P:EmployeeProfile.DTOs.EmployeeDTO.ContractDate">
+            <inheritdoc cref="F:EmployeeProfile.DTOs.EmployeeDTO.contractDate"/>
+        </member>
+        <member name="T:EmployeeProfile.ViewModels.EmployeeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.EmployeeViewModel.EmployeeDto">
+            <inheritdoc cref="F:EmployeeProfile.ViewModels.EmployeeViewModel.employeeDto"/>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.EmployeeViewModel.TituloPagina">
+            <inheritdoc cref="F:EmployeeProfile.ViewModels.EmployeeViewModel.tituloPagina"/>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.EmployeeViewModel.LoadingEsVisible">
+            <inheritdoc cref="F:EmployeeProfile.ViewModels.EmployeeViewModel.loadingEsVisible"/>
+        </member>
+        <member name="F:EmployeeProfile.ViewModels.EmployeeViewModel.submitCommand">
+            <summary>The backing field for <see cref="P:EmployeeProfile.ViewModels.EmployeeViewModel.SubmitCommand"/>.</summary>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.EmployeeViewModel.SubmitCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EmployeeProfile.ViewModels.EmployeeViewModel.Submit"/>.</summary>
+        </member>
+        <member name="T:EmployeeProfile.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.MainViewModel.ListEmployee">
+            <inheritdoc cref="F:EmployeeProfile.ViewModels.MainViewModel.listEmployee"/>
+        </member>
+        <member name="F:EmployeeProfile.ViewModels.MainViewModel.crearCommand">
+            <summary>The backing field for <see cref="P:EmployeeProfile.ViewModels.MainViewModel.CrearCommand"/>.</summary>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.MainViewModel.CrearCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EmployeeProfile.ViewModels.MainViewModel.Crear"/>.</summary>
+        </member>
+        <member name="F:EmployeeProfile.ViewModels.MainViewModel.editCommand">
+            <summary>The backing field for <see cref="P:EmployeeProfile.ViewModels.MainViewModel.EditCommand"/>.</summary>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.MainViewModel.EditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:EmployeeProfile.ViewModels.MainViewModel.Edit(EmployeeProfile.DTOs.EmployeeDTO)"/>.</summary>
+        </member>
+        <member name="F:EmployeeProfile.ViewModels.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:EmployeeProfile.ViewModels.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:EmployeeProfile.ViewModels.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:EmployeeProfile.ViewModels.MainViewModel.Delete(EmployeeProfile.DTOs.EmployeeDTO)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IdEmployee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IdEmployee" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FullName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FullName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Salary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Salary" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ContractDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ContractDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmployeeDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmployeeDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoadingEsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoadingEsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListEmployee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListEmployee" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IdEmployee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IdEmployee" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FullName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FullName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Salary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Salary" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ContractDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ContractDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmployeeDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmployeeDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoadingEsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoadingEsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListEmployee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListEmployee" generated properties.</summary>
+        </member>
+    </members>
+</doc>
